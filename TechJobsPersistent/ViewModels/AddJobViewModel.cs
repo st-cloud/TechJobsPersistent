@@ -16,14 +16,18 @@ namespace TechJobsPersistent.ViewModels
 
         public List<SelectListItem> Employers { get; set; }
 
+        public List<Skill> Skills { get; set; }
+
         public AddJobViewModel()
         {
         }
         //no args constructor necessary?
 
-        public AddJobViewModel(List<Employer> submittedEmployers)
+        public AddJobViewModel(List<Employer> submittedEmployers, List<Skill> submittedSkills)
         {
             Employers = new List<SelectListItem>();
+
+            Skills = submittedSkills;
 
             foreach (var employer in submittedEmployers)
             {

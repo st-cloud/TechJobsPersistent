@@ -6,8 +6,11 @@
 
 --Part 2
 --SELECT Name
---FROM techjobs.Employers
+--FROM techJobs.Employers
 --WHERE location = "St. Louis";
 
 --Part 3
-
+--SELECT Name, Description
+--FROM techJobs.Skills
+--INNER JOIN JobSkills ON SkillsId=JobSkills.SkillId
+--ORDER BY Name ASC;
