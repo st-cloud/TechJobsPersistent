@@ -5,6 +5,9 @@
 --EmployerId (int)
 
 --Part 2
+--SELECT Name
+--FROM techjobs.Employers
+--WHERE location = "St. Louis";
 
 --Part 3
 
