@@ -33,7 +33,6 @@ namespace TechJobsPersistent.Controllers
             return View(addEmployerViewModel);
         }
 
-        //should use viewmodel here instead of just employer object, right?
         [HttpPost]
         public IActionResult ProcessAddEmployerForm(AddEmployerViewModel addEmployerViewModel)
         {
@@ -55,7 +54,6 @@ namespace TechJobsPersistent.Controllers
 
         }
 
-        //not sure what I need to add here to ensure it's a real Employer object
         public IActionResult About(int id)
         {
             Employer theEmployer = context.Employers.Find(id);

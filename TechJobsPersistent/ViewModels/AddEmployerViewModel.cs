@@ -14,12 +14,5 @@ namespace TechJobsPersistent.ViewModels
         public AddEmployerViewModel()
         {
         }
-
-        //public AddEmployerViewModel(string name, string location)
-        //{
-        //    Name = name;
-        //    Location = location;
-        //}
-        //do I need to add an empty constructor? > it added it for me. why?
     }
 }
